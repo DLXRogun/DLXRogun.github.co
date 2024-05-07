@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.main-top{
+    text-align: center;
+    margin: 50px 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3개의 열로 구성됩니다. */
+    gap: 10px; /* 요소들 사이의 간격을 조절합니다. */
+}
+
+.image-wrapper {
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+    font-family: arial,sans-serif;
+}
+
+.button {
+    height: 36px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 16px;
+    font-family: arial,sans-serif;
+    padding: 0 16px;
+    text-align: center;
+}
+
